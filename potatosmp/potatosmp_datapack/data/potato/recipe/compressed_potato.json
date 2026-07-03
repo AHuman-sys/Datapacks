@@ -11,7 +11,10 @@
     "count": 1,
     "components": {
       "item_name": "Compressed Potato",
-      "item_model": "potato:compressed_potato"
+      "item_model": "potato:compressed_potato",
+      "custom_data": {
+        "compressed_potato": true
+      }
     }
   }
 }
