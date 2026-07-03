@@ -10,8 +10,8 @@
     "id": "minecraft:hay_block",
     "count": 1,
     "components": {
-      "item_name": "Potato Block",
-      "item_model": "potato:potato_block"
+      "item_name": "Compressed Potato",
+      "item_model": "potato:compressed_potato"
     }
   }
 }
