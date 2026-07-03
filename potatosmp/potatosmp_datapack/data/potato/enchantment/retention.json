@@ -1,6 +1,6 @@
 {
   "description": "Retention",
-  "supported_items": "potato:tag/item/retention_enchantable",
+  "supported_items": "potato:tags/item/retention_enchantable",
   "weight": 1,
   "max_level": 1,
   "min_cost": {
