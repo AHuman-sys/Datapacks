@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Potato",
+  "category": "misc",
+  "pattern": ["   ", "PWP", " B "],
+  "key": {
+    "P": ["minecraft:potato"],
+    "W": ["minecraft:wheat"],
+    "B": ["minecraft:glass_bottle"]
+  },
+  "result": {
+    "id": "minecraft:potion",
+    "count": 1,
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:nausea",
+                "duration": 600,
+                "amplifier": 0
+              },
+              {
+                "id": "minecraft:strength",
+                "duration": 600,
+                "amplifier": 2
+              },
+              {
+                "id": "minecraft:speed",
+                "duration": 600,
+                "amplifier": 1
+              }
+            ]
+          }
+        ]
+      },
+      "item_name": "Vodka",
+      "item_model": "potato:vodka"
+    }
+  }
+}

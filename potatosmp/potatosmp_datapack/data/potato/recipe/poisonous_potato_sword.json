@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Potato",
+  "category": "misc",
+  "pattern": [" P ", " P ", " S "],
+  "key": {
+    "P": ["minecraft:poisonous_potato"],
+    "S": ["minecraft:stick"]
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "item_name": "Poisonous Potato Sword",
+      "item_model": "potato:poisonous_potato_sword",
+      "damage": 6,
+      "custom_data": {
+        "poisonous_potato_sword": true
+      }
+    }
+  }
+}

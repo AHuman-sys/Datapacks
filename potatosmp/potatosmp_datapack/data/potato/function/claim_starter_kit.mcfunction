@@ -1,0 +1,5 @@
+give @s minecraft:golden_axe 1
+give @s minecraft:bread 16
+give @s minecraft:potato 8
+give @s written_book[written_book_content={title:"PotatoSMP Starter-Guide",author:"SolanumTub3rosum",pages:['{"text":"Welcome to PotatoSMP!\n\nYour ultimate goal here is simple:\n\n-> BECOME THE RICHEST PLAYER ON THE SERVER.\n\nEverything here revolves around one thing... Potatoes.","color":"black"}','{"text":"🏦 FARMING & BANKING\n\n1. Farm as many potatoes as you can.\n2. Deposit them at the Bank.\n3. Earn Credits to fund your empire.\n\nTurn basic agriculture into pure power.","color":"black"}','{"text":"⚔️ BOUNTIES\n\nWatch your back. Players can place potato bounties on each other\'s heads.\n\nHunt active targets for massive paydays, or run if someone puts a price on you. Trust no one.","color":"black"}','{"text":"🏆 EVENTS & GLORY\n\nKeep your gear ready! Every once in a while, the admin will host:\n\n- PvP Tournaments\n- Custom Minigames\n\nCompete for legendary prizes and massive potato stacks!","color":"black"}']}] 1
+scoreboard players set @s starter_kit_claimed 1
