@@ -17,7 +17,6 @@ scoreboard objectives setdisplay list player_id
 scoreboard objectives setdisplay below_name bounty_amount
 execute as @a run title @a actionbar {"text":"Bounty: $","color":"gold","bold":true,"extra":[{"score":{"name":"@s","objective":"bounty_amount"}}]}
 
-gamerule limited_crafting true
 gamerule locator_bar false 
 
 scoreboard objectives add died deathCount
