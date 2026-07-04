@@ -15,7 +15,7 @@ scoreboard objectives add join dummy
 scoreboard objectives setdisplay sidebar balance
 scoreboard objectives setdisplay list player_id
 scoreboard objectives setdisplay below_name bounty_amount
-execute as @a run title @a actionbar {"text":"Bounty: $","color":"gold","bold":true,"extra":[{"score":{"name":"@s","objective":"bounty_amount"}}]}
+title @a actionbar {"text":"Bounty: ","color":"gold","extra":[{"score":{"name":"@s","objective":"bounty_amount"}}]}
 
 gamerule locator_bar false 
 
