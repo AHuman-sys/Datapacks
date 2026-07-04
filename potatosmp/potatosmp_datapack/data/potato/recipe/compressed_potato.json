@@ -7,7 +7,7 @@
     "P": ["minecraft:potato"]
   },
   "result": {
-    "id": "minecraft:hay_block",
+    "id": "minecraft:charcoal",
     "count": 1,
     "components": {
       "item_name": "Compressed Potato",

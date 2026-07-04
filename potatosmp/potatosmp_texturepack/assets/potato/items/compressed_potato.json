@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "potato:potato_block"
+    "model": "potato:compressed_potato"
   }
 }

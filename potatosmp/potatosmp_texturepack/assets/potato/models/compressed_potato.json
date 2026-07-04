@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "potato:block/potato_block"
+    "layer0": "potato:item/compressed_potato"
   }
 }

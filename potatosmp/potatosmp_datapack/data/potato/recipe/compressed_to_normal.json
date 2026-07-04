@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "group": "Potato",
   "category": "misc",
-  "ingredients": [["potato:compressed_potato"]],
+  "ingredients": ["potato:compressed_potato"],
   "result": {
     "id": "minecraft:potato",
     "count": 9
