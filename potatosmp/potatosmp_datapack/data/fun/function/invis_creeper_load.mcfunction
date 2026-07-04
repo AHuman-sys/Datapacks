@@ -1,0 +1,1 @@
+scoreboard objectives add smp_events dummy

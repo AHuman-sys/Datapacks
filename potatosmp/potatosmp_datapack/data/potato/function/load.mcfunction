@@ -12,6 +12,7 @@ scoreboard players set #retrieve_128 retrieve 128
 scoreboard players set #retrieve_640 retrieve 640
 scoreboard objectives add join dummy
 
+
 scoreboard objectives setdisplay sidebar balance
 scoreboard objectives setdisplay list player_id
 scoreboard objectives setdisplay below_name bounty_amount
