@@ -11,7 +11,8 @@ scoreboard players set #retrieve_64 retrieve 64
 scoreboard players set #retrieve_128 retrieve 128
 scoreboard players set #retrieve_640 retrieve 640
 scoreboard objectives add join dummy
-
+scoreboard objectives add tax_pool dummy
+scoreboard players add #global_tax_pool tax_pool 0
 
 scoreboard objectives setdisplay sidebar balance
 scoreboard objectives setdisplay list player_id

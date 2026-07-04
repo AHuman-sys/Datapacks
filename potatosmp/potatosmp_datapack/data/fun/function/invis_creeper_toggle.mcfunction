@@ -8,3 +8,9 @@ scoreboard players operation #creeper_event smp_events = #temp smp_events
 # 3. Output colored feedback to the admin who triggered it
 execute if score #creeper_event smp_events matches 1 run tellraw @s {"text":"[SMP] Invisible Creepers: ACTIVE","color":"green"}
 execute if score #creeper_event smp_events matches 0 run tellraw @s {"text":"[SMP] Invisible Creepers: INACTIVE","color":"red"}
+
+execute if score #creeper_event smp_events matches 1 run bossbar add invis_creeper {"text":"Invisible Creepers"}
+execute if score #creeper_event smp_events matches 1 run bossbar set minecraft:invis_creeper players @a 
+execute if score #creeper_event smp_events matches 1 run bossbar set minecraft:invis_creeper color green
+execute if score #creeper_event smp_events matches 1 run bossbar set minecraft:invis_creeper style progress
+execute if score #creeper_event smp_events matches 0 run bossbar remove invis_creeper 

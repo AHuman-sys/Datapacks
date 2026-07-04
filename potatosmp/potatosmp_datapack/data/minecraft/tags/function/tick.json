@@ -1,3 +1,8 @@
 {
-  "values": ["potato:deposit", "potato:tick", "fun:invis_creeper_tick"]
+  "values": [
+    "potato:deposit",
+    "potato:tick",
+    "fun:invis_creeper_tick",
+    "fun:no_nametag_tick"
+  ]
 }
