@@ -9,7 +9,7 @@
     "B": ["minecraft:glass_bottle"]
   },
   "result": {
-    "id": "minecraft:potion",
+    "id": "minecraft:water_bucket",
     "count": 1,
     "components": {
       "minecraft:consumable": {
