@@ -1,1 +1,1 @@
-Minecraft Datapacks by a human
+Minecraft Datapacks
