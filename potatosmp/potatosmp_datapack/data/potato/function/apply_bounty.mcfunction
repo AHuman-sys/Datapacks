@@ -1,1 +1,0 @@
-scoreboard players operation @s bounty_tracker += #temp_amount bounty_amount
