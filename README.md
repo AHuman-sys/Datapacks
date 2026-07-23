@@ -24,7 +24,7 @@
 - Potato Pickaxe -> efficiency V + autosmelting
 
 ### Economy/Credits
-- bank -> throw your potatoes in it and press a button
+- bank -> click on a block or something to deposit
 - trading /pay
 - use credits to buy strong but not too strong custom weapons.
 	- if you couldn't buy anything with credits then nobody would grind for them.
