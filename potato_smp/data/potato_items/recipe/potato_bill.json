@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "potatosmp",
+    "category": "misc",
+    "pattern": ["BBB", "BPB", "BBB"],
+    "key": {
+        "B": ["minecraft:baked_potato"],
+        "P": ["minecraft:paper"]
+    },
+    "result": {
+        "id": "minecraft:paper",
+        "components": {
+            "item_name": "Potato Bill",
+            "item_model": "potato_smp:item/potato_bill"
+        },
+        "count": 1
+    }
+}
