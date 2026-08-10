@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "potatosmp",
+    "category": "misc",
+    "pattern": ["PPP", "PPP", "PPP"],
+    "key": {
+        "P": ["minecraft:potato"]
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "components": {
+            "minecraft:item_name": "Compressed Potato"
+        },
+        "count": 1
+    }
+}
