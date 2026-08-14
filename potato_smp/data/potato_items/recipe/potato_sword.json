@@ -1,27 +1,21 @@
 {
-    "type": "minecraft:smithing_transform",
-    "show_notification": false,
-    "template": "netherite_upgrade_smithing_template",
-    "base": ["minecraft:diamond_sword"],
-    "addition": ["minecraft:copper_ingot"],
+    "type": "minecraft:crafting_shaped",
+    "group": "potatosmp",
+    "category": "misc",
+    "pattern": ["P"],
+    "key": {
+        "P": ["minecraft:command_block"]
+    },
     "result": {
         "id": "minecraft:iron_sword",
-        "count": 1,
         "components": {
             "minecraft:item_name": "Potato Sword",
             "minecraft:attribute_modifiers": [
                 {
                     "type": "minecraft:attack_speed",
-                    "id": "minecraft:fast_attack",
-                    "amount": 100,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "type": "minecraft:attack_damage",
-                    "id": "minecraft:sword_damage",
-                    "amount": 5,
-                    "operation": "add_value",
+                    "id": "minecraft:attack_speed",
+                    "amount": 10,
+                    "operation": "add_multiplied_base",
                     "slot": "mainhand"
                 }
             ]

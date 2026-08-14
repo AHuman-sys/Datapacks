@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "potatosmp",
+    "category": "misc",
+    "pattern": [
+        "PP"
+    ],
+    "key": {
+        "P": [
+            "minecraft:command_block"
+        ]
+    },
+    "result": {
+        "id": "minecraft:iron_sword",
+        "components": {
+            "item_name": "Poisonous Potato Sword",
+            "minecraft:custom_data": {
+                "id": "poisonous_potato_sword"
+            }
+        }
+    }
+}
